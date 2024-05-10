@@ -37,9 +37,12 @@ main{
     justify-content: space-around;
     margin: 30px;
     padding: 30px;
-    border-bottom: none; /* Eliminamos el borde inferior actual */
-    border-right: none; /* Eliminamos el borde derecho actual */
-    border-radius: 0 0 8px 0; /* Borde curvo solo en la esquina inferior derecha */
+    border-bottom: none; 
+    border-right: none; 
+    --br-x: 60px;
+    --br-y: 10px;
+    /* border-radius: 0 0 8px 0;  Borde curvo solo en la esquina inferior derecha */
+    border-bottom-right-radius: var(--br-x) var(--br-y);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombreado en los bordes derecho e inferior */
 }
 
