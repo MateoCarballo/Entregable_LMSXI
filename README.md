@@ -2,6 +2,7 @@
 
 <p> Entregable para demostrar los conocimientos aprendidos sobre html y css.
 Una vez abierto el documento abrir el archivo "Index.html" desde este podremos navegar por los diferentes apartados de la página. </p>
+
 > [!WARNING]
 > Los formularios no son funcionales estan diseñados todos los cambos y el botón pero si lo pulsamos no nos llevará a ninguna parte.
 
