@@ -129,6 +129,10 @@ transform: scale(1.05);
 .Piloto:hover{
     box-shadow: 8px 5px 5px #DC0000,
     -2px -5px 5px #fff700;
+    transition: all ease-in-out 300ms;
+    --br-x: 100px;
+    --br-y: 10px;
+    border-radius: var(--br-x) var(--br-y);
 } 
 
 .Bandera-Dorsal-Nombre{

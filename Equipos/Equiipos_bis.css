@@ -34,11 +34,19 @@ footer{
 
 .contenedor-formulas::after {
   filter: brightness(10%);
+  filter: blur(50%);
   }
 
 .contenedor-formulas {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*
+   repeat(auto-fill, significa que el navegador debe llenar automáticamente las columnas 
+   según el espacio disponible. Si hay espacio para más columnas, las agregará.
+   "minmax(250px, 1fr)" establece el ancho mínimo y máximo que puede tener cada columna. 
+   Esto significa que la columna no será más pequeña que 250 píxeles, pero tampoco 
+   será más grande que lo que necesite para llenar el espacio disponible en la página.
+  */
   grid-gap: 5em;
   min-height: 100%;
   

@@ -39,10 +39,7 @@ main{
     padding: 30px;
     border-bottom: none; 
     border-right: none; 
-    --br-x: 60px;
-    --br-y: 10px;
-    /* border-radius: 0 0 8px 0;  Borde curvo solo en la esquina inferior derecha */
-    border-bottom-right-radius: var(--br-x) var(--br-y);
+     /* border-radius: 0 0 8px 0;  Borde curvo solo en la esquina inferior derecha */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombreado en los bordes derecho e inferior */
 }
 
@@ -129,6 +126,13 @@ border-top: none;
 border-left: none;
 } 
 
+.Piloto:hover{
+    transition: all ease-in-out 300ms;
+    --br-x: 100px;
+    --br-y: 10px;
+    border-radius: var(--br-x) var(--br-y);
+}
+
 .Piloto .Foto-Piloto{
 transition: all 0.5s ease;
 transform: scale(1.0);
@@ -146,6 +150,10 @@ transform: scale(1.05);
 box-shadow: 8px 5px 5px #006F62,
 /* Segunda capa de sombra*/
 -2px -5px 5px #FFD700;
+    transition: all ease-in-out 300ms;
+    --br-x: 100px;
+    --br-y: 10px;
+    border-radius: var(--br-x) var(--br-y);
 } 
 
 .Bandera-Dorsal-Nombre{
